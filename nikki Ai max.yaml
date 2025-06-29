@@ -156,7 +156,7 @@ proxy-groups:
   - name: 所有-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -179,7 +179,7 @@ proxy-groups:
   - name: 香港-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -200,7 +200,7 @@ proxy-groups:
   - name: 台湾-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -221,7 +221,7 @@ proxy-groups:
   - name: 日本-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -242,7 +242,7 @@ proxy-groups:
   - name: 新加坡-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -263,7 +263,7 @@ proxy-groups:
   - name: 韩国-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -284,7 +284,7 @@ proxy-groups:
   - name: 美国-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -305,7 +305,7 @@ proxy-groups:
   - name: 英国-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
@@ -326,7 +326,7 @@ proxy-groups:
   - name: 其他-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:1.0;红杏云:0.7"
+    policy-priority: "牛逼:0.9;红杏云:1.3"
     uselightgbm: true
     collectdata: true
     interval: 300
