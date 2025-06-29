@@ -350,6 +350,7 @@ rules:
   - RULE-SET,Telegram / IP,Telegram
   - RULE-SET,WhatsApp / Domain,WhatsApp
   - RULE-SET,Facebook / Domain,Facebook
+  - RULE-SET,Apple TV / Domain,Apple TV
   - RULE-SET,Apple / Domain,Apple
   - RULE-SET,Apple-CN / Domain,Apple
   - RULE-SET,Microsoft / Domain,Microsoft
@@ -374,7 +375,6 @@ rules:
   - RULE-SET,Nintend / Domain,Games
   - RULE-SET,Signal / Domain,Signal
   - RULE-SET,LINE / Domain,LINE
-  - RULE-SET,Apple TV / Domain,Apple TV
   - RULE-SET,Google / Domain,Google
   - RULE-SET,Google / IP,Google,no-resolve
   - RULE-SET,Nvidia / Domain,Nvidia
@@ -437,7 +437,7 @@ rule-providers:
   Nintend / Domain: {<<: *class, url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.list"}
   Signal / Domain: {<<: *domain, url: "https://github.moeyy.xyz/https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/signal.mrs"}
   LINE / Domain: {<<: *domain, url: "https://github.moeyy.xyz/https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/line.mrs"}
-  Apple TV / Domain: {<<: *domain, url: "https://github.moeyy.xyz/https://github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/appletv.mrs"}
+  Apple TV / Domain: {<<: *domain, url: "https://github.moeyy.xyz/https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/apple-tvplus.mrs"}
   Proxy / Domain: {<<: *class, url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/list/Proxy.list"}
   Globe / Domain: {<<: *class, url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list"}
   Direct / Domain: {<<: *class, url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/list/Direct.list"}
