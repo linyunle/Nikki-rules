@@ -156,7 +156,7 @@ proxy-groups:
   - name: 所有-智选
     type: smart
     include-all: true
-    policy-priority: "牛逼:0.9;红杏云:1.3"
+    policy-priority: "香港:1.5;牛逼:0.8"
     uselightgbm: true
     collectdata: true
     interval: 300
