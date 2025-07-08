@@ -5,7 +5,7 @@
 # 机场节点订阅
 proxy-providers:
   红杏云:
-    url: "https://hongxingdl.love/hxyunvip?token=4ce728f6370aa40ac1ad00a8daccf3f0"
+    url: "在这里填写订阅地址"
     type: http
     interval: 86400
     path: ./proxies/hongxingyun.yaml
@@ -17,7 +17,7 @@ proxy-providers:
     proxy: 直连
 
   牛逼:
-    url: "http://8.138.135.231:8090/api/v1/client/subscribe?token=1a55f1709df18a327e55fb021c639b82"
+    url: "在这里填写订阅地址"
     type: http
     interval: 86400
     path: ./proxies/niubi.yaml
