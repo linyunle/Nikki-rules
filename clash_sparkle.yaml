@@ -329,6 +329,9 @@ proxy-groups:
 - name: Block
   type: select
   proxies: *1
+- name: 广告拦截
+  type: select
+  proxies: *1
 - name: 国外
   type: select
   proxies: *1
@@ -487,6 +490,7 @@ proxy-groups:
 rules:
 - RULE-SET,TEST / Domain,Test
 - RULE-SET,Block / Domain,Block
+- RULE-SET,广告拦截 / Domain,广告拦截
 - RULE-SET,ChatGPT / Domain,ChatGPT
 - RULE-SET,Claude / Domain,Claude
 - RULE-SET,Meta AI / Domain,Meta AI
@@ -818,6 +822,12 @@ rule-providers:
     behavior: classical
     format: text
     url: https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/list/Block.list
+  广告拦截 / Domain:
+    type: http
+    interval: 86400
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs
 bind-address: "*"
 external-ui: "/usr/share/openclash/ui"
 external-ui-name: metacubexd
