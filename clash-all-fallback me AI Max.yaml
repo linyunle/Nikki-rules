@@ -5,7 +5,7 @@
 # 机场节点订阅
 proxy-providers:
   牛逼:
-    url: "http://192.168.100.1:3001/CKg2abstVnOeRpm1aB4G/download/8.138.135.231%3A8090"
+    url: "http://192.168.100.1:3001/CKg2abstVnOeRpm1aB4G/download/niubi"
     type: http
     interval: 86400
     health-check:
@@ -15,7 +15,7 @@ proxy-providers:
     proxy: 直连 
 
   红杏云:
-    url: "http://192.168.100.1:3001/CKg2abstVnOeRpm1aB4G/download/hongxingdl.love-copy340"
+    url: "http://192.168.100.1:3001/CKg2abstVnOeRpm1aB4G/download/hongxing"
     type: http
     interval: 86400
     health-check:
@@ -24,8 +24,8 @@ proxy-providers:
       interval: 180
     proxy: 直连 
 
-  小白云:
-    url: "http://192.168.100.1:3001/CKg2abstVnOeRpm1aB4G/download/cloudflare?target=Stash"
+  cloudflare:
+    url: "http://192.168.100.1:3001/CKg2abstVnOeRpm1aB4G/download/cloudflare"
     type: http
     interval: 86400
     health-check:
