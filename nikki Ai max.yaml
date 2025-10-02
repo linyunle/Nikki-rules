@@ -245,6 +245,9 @@ default:
   - 其他-手动
   - 拒绝
 proxy-groups:
+- name: YouTube
+  type: select
+  proxies: *1
 - name: ChatGPT
   type: select
   proxies: *1
@@ -294,9 +297,6 @@ proxy-groups:
   type: select
   proxies: *1
 - name: Game
-  type: select
-  proxies: *1
-- name: YouTube
   type: select
   proxies: *1
 - name: TikTok
@@ -526,10 +526,10 @@ rules:
 - RULE-SET,WhatsApp / Domain,WhatsApp
 - RULE-SET,Facebook / Domain,Facebook
 - RULE-SET,Amazon / Domain,Amazon
-- RULE-SET,Apple / Domain,Apple
-- RULE-SET,Apple-CN / Domain,Apple
 - RULE-SET,Apple TV / Domain,Apple TV
 - RULE-SET,Apple Podcast / Domain,Apple Podcast
+- RULE-SET,Apple / Domain,Apple
+- RULE-SET,Apple-CN / Domain,Apple
 - RULE-SET,LINE / Domain,LINE
 - RULE-SET,Signal / Domain,Signal
 - RULE-SET,Microsoft / Domain,Microsoft
